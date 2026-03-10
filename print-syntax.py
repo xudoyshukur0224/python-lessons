@@ -1,0 +1,38 @@
+print("Hello, World")
+print('Bugun darsga hamma keldi')
+print("Xudoyshukur Baxtiyorov")
+print('Men "Lenovo" markazidagi kompyuter ishlataman')
+print("Men \"Lenovo\" markazidagi kompyuter ishlataman")
+print("Men'iPhone' markazidagi telefon ishlataman")
+print('Men \'iPhone\' markazidagi telefon ishlataman')
+print("Bizning buyuk allomalarimiz: \"Abdulla Qodiriy\", 'Behbudiy' ")
+print('Bizning buyuk allomalarimiz: "Abdulla Qodiriy", \'Behbudiy\' ')
+#print("Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ")
+print("Odami ersang, demagil odami, \nOniki yo'q xalq g'amidin g'ami")
+print(16)
+print(16+15)
+print(16-15)
+print(6 * 5)
+print(6 / 3)
+# butun qismi topish
+print(7 // 2)
+print(8 // 4)
+# darajaga oshirish 
+print(14 ** 2)
+print(8 ** 3)
+print(144 **(1/2) )
+print(576 **(1/2))
+# qoldiqni topish
+print(12 % 5)
+print(29 % 6)
+print(8 % 11)
+# Beshning kvadrati 25 ga teng 
+print("Beshning kvadrati", 5 ** 2, "ga teng")
+# Amaliyot
+#print("'BMW', \"COBALT\", 'ONIX' ko'rganlar qilar havas")
+#print("5 ning 4-darajasini toping" ,5 ** 4)
+#print("22 ni 4 ga bo'lganda qancha qoldiq qoladi", 22 % 4)
+#print("Tomanlari 125 ga teng kvadratning yuzi" , 125*125, "va premitrini toping" , 4*25, )
+#print('Diametri 12 ga teng bo\'gan doiraning yuzi' , 3.14*(12/2)**2 )
+#print("Katetlari 6 va 7 bo'lgan to'g'ri burchakli uchburchakning gipotenuzasi" , (6**2+7**2)**(1/2))
+
