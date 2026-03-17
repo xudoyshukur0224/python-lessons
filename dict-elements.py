@@ -81,3 +81,18 @@ print(mahsulotlar.values()) # dict_values([10000, 20000, 40000, 25000, 30000])
 print("Do'konimizdagi mahsulotlarning narxlari:")
 for narx in mahsulotlar.values():
     print(narx)
+
+    telefonlar = {
+    'ali':'iphone x',
+    'vali':'galaxy s9',
+    'olim':'mi 10 pro',
+    'orif':'nokia 3310',
+    'hamida':'galaxy s9',
+    'maryam':'huawei p30',
+    'tohir':'iphone x',
+    'umar':'iphone x'    
+    }
+
+print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
+for tel in telefonlar.values():
+    print(tel)
