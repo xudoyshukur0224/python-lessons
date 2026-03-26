@@ -33,24 +33,24 @@
 # print(phone.keys()) # dict_keys(['brand', 'model', 'color', 'storage', 'price'])
 # print(telefonlar.keys()) # dict_keys(['ali', 'vali', 'olim', 'orif'])
 
-mahsulotlar = { # Do'kondagi mahsulotlar
-    'olma':10000,
-    'anor':20000,
-    'uzum':40000,
-    'anjir':25000,
-    'shaftoli':30000
-    }
+# mahsulotlar = { # Do'kondagi mahsulotlar
+#     'olma':10000,
+#     'anor':20000,
+#     'uzum':40000,
+#     'anjir':25000,
+#     'shaftoli':30000
+#     }
 
-print(mahsulotlar.keys())
+# print(mahsulotlar.keys())
 
-print("Do'konimizdagi mahsulotlar:")
-for mahsulot in mahsulotlar.keys():
-    print(mahsulot.title())
+# print("Do'konimizdagi mahsulotlar:")
+# for mahsulot in mahsulotlar.keys():
+#     print(mahsulot.title())
 
 # in operatori
 # 1. List elementlari orasida qiymatning mavjudligini tekshirish
 # 2. -  lug'atda kalit so'z bor-yo'qligini tekshirish
-bozorlik = ['anor','uzum','non','baliq']
+# bozorlik = ['anor','uzum','non','baliq'] 
 # print('anor' in bozorlik) # True
 # print('olma' in bozorlik) # False
 
@@ -69,30 +69,30 @@ bozorlik = ['anor','uzum','non','baliq']
 #         print(f"{mahsulot.title()} do'konimizda yo'q")
 
 # LUG'AT ELEMENTLARINI TARTIB BILAN CHIQARISH   
-print(mahsulotlar)
-print(sorted(mahsulotlar)) 
+# print(mahsulotlar)
+# print(sorted(mahsulotlar)) 
 
-print("Do'konimizdagi mahsulotlar:")    
-for mahsulot in sorted(mahsulotlar):
-    print(mahsulot.title())
+# print("Do'konimizdagi mahsulotlar:")    
+# for mahsulot in sorted(mahsulotlar):
+#     print(mahsulot.title())
 
-# values() metodi - lug'atdagi qiymatlarni list sifatida olish
-print(mahsulotlar.values()) # dict_values([10000, 20000, 40000, 25000, 30000])
-print("Do'konimizdagi mahsulotlarning narxlari:")
-for narx in mahsulotlar.values():
-    print(narx)
+# # values() metodi - lug'atdagi qiymatlarni list sifatida olish
+# print(mahsulotlar.values()) # dict_values([10000, 20000, 40000, 25000, 30000])
+# print("Do'konimizdagi mahsulotlarning narxlari:")
+# for narx in mahsulotlar.values():
+#     print(narx)
 
-    telefonlar = {
-    'ali':'iphone x',
-    'vali':'galaxy s9',
-    'olim':'mi 10 pro',
-    'orif':'nokia 3310',
-    'hamida':'galaxy s9',
-    'maryam':'huawei p30',
-    'tohir':'iphone x',
-    'umar':'iphone x'    
-    }
+# telefonlar = {
+#     'ali':'iphone x',
+#     'vali':'galaxy s9',
+#     'olim':'mi 10 pro',
+#     'orif':'nokia 3310',
+#     'hamida':'galaxy s9',
+#     'maryam':'huawei p30',
+#     'tohir':'iphone x',
+#     'umar':'iphone x'    
+#     }
 
-print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
-for tel in telefonlar.values():
-    print(tel)
+# print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
+# for tel in telefonlar.values():
+#     print(tel)
