@@ -65,14 +65,14 @@
 # daraja_hisobla(x)  
 
 # 7. Foydalanuvchidan son qabul qilib, sonni 2 dan 10 gacha bo'lgan sonlarga qoldiqsiz bo'linishini tekshiruvchi funksiya yozing. Natijalarni konsolga chiqaring.
-def bolinish_tekshir(son):
-    for i in range(2, 11):
-        if son % i == 0:
-            print(f"{ son } { i } ga qoldiqsiz bo'linadi")
-        else:
-            print(f"{ son } { i } ga qoldiqsiz bo'linmaydi")
+# def bolinish_tekshir(son):
+#     for i in range(2, 11):
+#         if son % i == 0:
+#             print(f"{ son } { i } ga qoldiqsiz bo'linadi")
+#         else:
+#             print(f"{ son } { i } ga qoldiqsiz bo'linmaydi")
 
-son = int(input("Son kiriting: "))
-bolinish_tekshir(son) 
+# son = int(input("Son kiriting: "))
+# bolinish_tekshir(son) 
 
- 
+  

@@ -43,7 +43,7 @@
 # tyil = int(input("Tug'ilgan yilingizni kiriting: "))
 # yosh_hisobla(tyil)  
 
-# def salom_ber():
+# def salom_ber(): 
 #     """Salom beruvchi funksiya"""
 #     print("Assalomu alaykum!")
 
