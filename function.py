@@ -36,12 +36,12 @@
 # yosh_hisobla("Albert Einstein", 1879 )  
 # yosh_hisobla()
 
-# def yosh_hisobla(tugilgan_yil, joriy_yil=2026):
-#     """Foydalanuvchi tug'ilgan yilidan uning yoshini hisoblaydi"""
-#     print(f"Siz {joriy_yil-tugilgan_yil} yoshdasiz")
+def yosh_hisobla(tugilgan_yil, joriy_yil=2026):
+    """Foydalanuvchi tug'ilgan yilidan uning yoshini hisoblaydi"""
+    print(f"Siz {joriy_yil-tugilgan_yil} yoshdasiz")
     
-# tyil = int(input("Tug'ilgan yilingizni kiriting: "))
-# yosh_hisobla(tyil)  
+tyil = int(input("Tug'ilgan yilingizni kiriting: "))
+yosh_hisobla(tyil)  
 
 # def salom_ber(): 
 #     """Salom beruvchi funksiya"""
@@ -49,10 +49,10 @@
 
 # salom_ber('hasan') 
 
-# def toliq_ism(ism, familiya):
-#     """Foydalanuvchi ism va familiyasini jamlab chiqaruvchi funksiya"""
-#     print(f"Foydalanuvchi ismi: {ism.title()}\n"
-#           f"Foydalanuvchi familiyasi: {familiya.title()}")
+def toliq_ism(ism, familiya):
+    """Foydalanuvchi ism va familiyasini jamlab chiqaruvchi funksiya"""
+    print(f"Foydalanuvchi ismi: {ism.title()}\n"
+          f"Foydalanuvchi familiyasi: {familiya.title()}")
  
 # toliq_ism('olim', 'hakimov')
 
